@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React Charitha
+          Learn React Charitha suranga
         </a>
       </header>
     </div>
