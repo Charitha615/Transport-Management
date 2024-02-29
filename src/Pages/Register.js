@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { APIURL } from "./API/api";
+import { APIURL } from "../API/api";
 
 
 const Container = styled.div`
@@ -95,7 +95,7 @@ const Register = () => {
                 />
                 <Button onClick={handleRegister}>Register</Button>
                 <p>
-                    Don't have an account? <Link to="/login">Login</Link>
+                    Don't have an account? <Link to="/">Login</Link>
                 </p>
             </FormContainer>
             <ToastContainer />
