@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { APIURL } from "./API/api";
+import { APIURL } from "../API/api";
 
 const Container = styled.div`
     display: flex;
